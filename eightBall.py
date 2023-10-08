@@ -15,7 +15,8 @@ def shakeEightBall():
                 "Without a doubt", "Better not tell you now", "Outlook good", "My sources say no", "Outlook awful"
                 "Yes definitely", "Cannot predict now", "Yes", "Outlook not so good", "Please wipe the screen, I couldnt hear you"
                 "You may rely on it", "Concentrate and ask again", "Signs point to yes", "Very doubtful", "Perhaps therapy"]
-    print("You did it")
+    getAns = answers[random.randint(0, len(answers))]
+    print(getAns)
 
 if __name__ == "__main__":
     main()
