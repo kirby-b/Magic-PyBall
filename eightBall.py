@@ -16,7 +16,7 @@ def shakeEightBall():
                 "Yes definitely", "Cannot predict now", "Yes", "Outlook not so good", "Please wipe the screen, I couldnt hear you"
                 "You may rely on it", "Concentrate and ask again", "Signs point to yes", "Very doubtful", "Perhaps therapy"]
     getAns = answers[random.randint(0, len(answers))]
-    print(getAns)
+    print(getAns)#Gets the eightball answer
 
 if __name__ == "__main__":
     main()
